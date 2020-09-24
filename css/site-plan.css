@@ -3,9 +3,9 @@
 
 :root {
     --primary-color: #dfe6eb;
-    --secondary-color: #7c96b1;
+    --secondary-color: #92b3d6;
     --accent1-color: #4c5d6d;
-    --accent2-color: rgb(80, 116, 150);
+    --accent2-color: rgb(41, 98, 151);
     --heading-font: "Raleway";
     --paragraph-font: "Open Sans Condensed";
 }
@@ -38,7 +38,7 @@ h6 {
 header {
     padding: 1em;
     text-align: center;
-    color: var(--accent2-color);
+    color: var(--accent1-color);
     background-color: var(--primary-color);
 }
 
@@ -85,7 +85,7 @@ p {
 }
 
 nav {
-    background-color: ;
+    background-color: var(--primary-color);
     line-height: 3em;
     text-align: center;
     font-size: 1.2em
