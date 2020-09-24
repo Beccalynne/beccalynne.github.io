@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Raleway:wght@100&display=swap');
 
 :root {
-    --primary-color: #80a5c0;
-    --secondary-color: #455157;
-    --accent1-color: #6a8fb1;
-    --accent2-color: rgb(58, 81, 102);
-    --heading-font: "IM Fell French Canon SC";
-    --paragraph-font: Lato, Helvetica, sans-serif
+    --primary-color: #dfe6eb;
+    --secondary-color: #7c96b1;
+    --accent1-color: #4c5d6d;
+    --accent2-color: rgb(80, 116, 150);
+    --heading-font: "Raleway";
+    --paragraph-font: "Open Sans Condensed";
 }
 
 html {
@@ -24,25 +25,30 @@ img {
     max-width: 100%
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
     font-family: var(--heading-font);
-    color:
+    color: var(--accent2-color);
 }
 
 header {
     padding: 1em;
     text-align: center;
     color: var(--accent2-color);
-    background-color:
+    background-color: var(--primary-color);
 }
 
 header>h1 {
-    color:
+    color: var(--accent2-color)
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: ;
+    color: var(--accent1-color);
     padding: 1em
 }
 
@@ -97,10 +103,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color:
+    color: var(-accent2-color);
 }
 
 nav a:hover {
-    color: ;
-    background-color:
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
