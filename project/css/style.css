@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Raleway:wght@100&display=swap');
+
+:root {
+    --primary-color: #b0bdc5;
+    --secondary-color: #92b3d6;
+    --accent1-color: #4c5d6d;
+    --accent2-color: rgb(41, 98, 151);
+    --heading-font: "Raleway";
+    --paragraph-font: "Open Sans Condensed";
+}
+html {
+    background-color: var(--primary-color);
+}
