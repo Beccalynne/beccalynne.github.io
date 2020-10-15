@@ -5,7 +5,7 @@
     --primary-color: #c7e0f0;
     --secondary-color: #92b3d6;
     --accent1-color: #1d262e;
-    --accent2-color: rgb(41, 98, 151);
+    --accent2-color: rgb(179, 139, 139);
     --heading-font: "Raleway";
     --paragraph-font: "Open Sans Condensed";
 }
@@ -25,6 +25,10 @@
     padding: 3em;
     display: flex;
     text-align: center
+}
+.images {
+    background-color: rgb(179, 139, 139);
+    padding: 1em;
 }
 .info, .hours {
     padding: 0;
@@ -69,7 +73,7 @@ p {
 nav {
     background-color: var(--primary-color);
     line-height: 3em;
-    text-align: right;
+    text-align: center;
     font-size: 1.2em
 }
 header, main, footer {
@@ -80,6 +84,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
     padding: 1em;
+}
+h3 {
+    align: center;
 }
 nav>ul {
     list-style-type: none;
