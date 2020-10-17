@@ -59,7 +59,7 @@ footer {
 nav { 
     background-color: var(--primary-color); 
     color: var(--accent2-color);
-    font-size: 1.2em;
+    font-size: 1.2rem;
     padding: 2em;
 } 
 nav>ul { 
@@ -85,7 +85,7 @@ nav a:hover {
     flex-direction: column;
     padding: 2em;
     line-height: 200%;
-    font-size: 125%
+    font-size: 1.25rem
 }
 .hours, .contact {
     padding: 0em;
