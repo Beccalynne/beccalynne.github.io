@@ -50,6 +50,7 @@ h2, h3, h4, h5, h6 {
     font-family: var(--heading-font); 
     color: var(--accent2-color); 
     padding: 0em; 
+    display: flex;
 }
 footer {
     padding: 1em;
@@ -77,10 +78,6 @@ nav a:hover {
     color: var(--accent1-color); 
     background-color: var(--primary-color); 
 } 
-.images { 
-    background-color: var(--accent2-color); 
-    padding: .25em; 
-} 
 .info, .office {
     flex-direction: column;
     padding: 2em;
@@ -90,4 +87,15 @@ nav a:hover {
 .hours, .contact {
     padding: 0em;
     line-height: 80%;
+    position: center;
 }
+.overview1, .amentities1, .spotlight1, .reservations1 {
+    display: flex;
+}
+.overview, .amentities, .spotlight, .reservations {
+    display: flex;
+}
+.images { 
+    background-color: var(--accent2-color); 
+    padding: .25em; 
+} 
