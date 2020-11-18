@@ -9,12 +9,13 @@
         content="A collection of specialized hotel accommodations near multiple of The Church of Jesus Christ of latter day Saints temples. The unique opprotunity to stay near a church site with many services that are focused on the visitor getting the most out of their experience." />
     <link rel="stylesheet" href="css/style.css">
     <style>
-        
+
     </style>
 </head>
+
 <body>
     <header>
-        <img class="logo" src="images/logo.png" alt="logo"> 
+        <img class="logo" src="images/logo.png" alt="logo">
         <h1><strong>Temple Inn & Suites</strong></h1>
         <nav>
             <ul>
@@ -22,39 +23,87 @@
                     <h2><a href="index.html">Home</a></h2>
                 </li>
                 <li>
-                    <h2><a href="#">Amentities</a></h2>
+                    <h2><a href="amentities.html">Amentities</a></h2>
                 </li>
                 <li>
-                    <h2><a href="#">Temple Spotlight</a></h2>
+                    <h2><a href="spotlight.html">Temple Spotlight</a></h2>
                 </li>
                 <li>
-                    <h2><a href="#">Reservations</a></h2>
+                    <h2><a href="reservations.html">Reservations</a></h2>
                 </li>
             </ul>
         </nav>
     </header>
-        <form action="/my-handling-form-page" method="post">
+    <form action="/my-handling-form-page" method="post">
         <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email">
+            </li>
+            <li>
+                <label for="phone">Phone Number:</label>
+                <input type="phone-number">
+            </li>
+            <li>
+                <label for="dates">Dates Requested:</label>
+                <input type="text">
+            </li>
+
+        </ul>
+        <!-- AddEvent script -->
+        <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+        <div>
+            <label for="stay">Type of Stay:</label>
+            <SELECT>
+                <OPTION>Weekend
+                <OPTION>Short Vacation
+                <OPTION>Mission
+            </SELECT>
+        </div>
+        <div>
+            <label for="beds">Beds in the room:</label>
+            <select>
+                <OPTION>2 Queen
+                <OPTION>2 Twin
+                <OPTION>1 King
+                <OPTION>2 Queen with a roll out bed
+                </select>
+        </div>
         <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name">
-        </li>
-        <li>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="user_email">
-        </li>
-        <li>
-            <label for="dates">Dates Requested:</label>
-            <input type="text">
-        </li>
-        <li>
-            <label for="msg">Message:</label>                   
+            <label for="msg">Message:</label>
             <textarea id="msg" name="user_message"></textarea>
         </li>
-        </ul>
         <li class="button">
             <button type="submit">Requests dates today!</button>
         </li>
-        </form>
+        </head>
+</form>
+<footer>
+    <hr>
+    <section class="contact">
+        <div class="info">
+            <h5>Contact Details</h5>
+            <p class="contact"><strong>Temple Inn & Suites</strong></p>
+            <p class="contact">355 Wisconsin Avenue Bethesday, MD 20814</p>
+            <p class="contact">Call us at 215-529-9999</p>
+            <p class="contact">Email: info@templeinn.com</p>
+        </div>
+        <div class="media">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook"
+                    class="facebook"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/insta.png" alt="instagram"
+                    class="instagram"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter"
+                    class="twitter"></a>
+        </div>
+    </section>
+    <p>&copy; Temple Inn & Suites | Contact us at 215-529-9999 | All Rights Reserved | Privacy and Cookie Statement
+        | Becca Norman
+        <hr />
+</footer>
 </body>
 </html>
