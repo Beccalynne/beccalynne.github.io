@@ -37,19 +37,19 @@
     <form action="/my-handling-form-page" method="post">
         <ul>
             <li>
-                <label for="name">Name:</label>
+                <label class="name">Name:</label>
                 <input type="text" id="name" name="user_name">
             </li>
             <li>
-                <label for="mail">E-mail:</label>
+                <label class="mail">E-mail:</label>
                 <input type="email" id="mail" name="user_email">
             </li>
             <li>
-                <label for="phone">Phone Number:</label>
-                <input type="phone-number">
+                <label class="phone">Phone Number:</label>
+                <input type="tel">
             </li>
             <li>
-                <label for="dates">Dates Requested:</label>
+                <label class="dates">Dates Requested:</label>
                 <input type="text">
             </li>
 
@@ -57,7 +57,7 @@
         <!-- AddEvent script -->
         <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
         <div>
-            <label for="stay">Type of Stay:</label>
+            <label class="stay">Type of Stay:</label>
             <SELECT>
                 <OPTION>Weekend
                 <OPTION>Short Vacation
@@ -65,7 +65,7 @@
             </SELECT>
         </div>
         <div>
-            <label for="beds">Beds in the room:</label>
+            <label class="beds">Beds in the room:</label>
             <select>
                 <OPTION>2 Queen
                 <OPTION>2 Twin
@@ -73,15 +73,18 @@
                 <OPTION>2 Queen with a roll out bed
                 </select>
         </div>
-        <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-        </li>
-        <li class="button">
-            <button type="submit">Requests dates today!</button>
-        </li>
-        </head>
+        <ul>
+            <li>
+                <label class="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Requests dates today!</button>
+            </li>
+        </ul>
+
 </form>
+
 <footer>
     <hr>
     <section class="contact">

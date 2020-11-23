@@ -41,6 +41,8 @@ header {
     font-family: var(--heading-font);
     background-color: var(--primary-color);
     text-align: center;
+    justify-content: center;
+    max-height: 90px;
 }
 
 section {
@@ -59,6 +61,7 @@ nav {
     font-family: var(--heading-font);
     color: var(--accent2-color);
     text-align: center;
+    padding: .4em;
 }
 h2,
 h5,
@@ -87,7 +90,7 @@ footer {
 nav {
     background-color: var(--primary-color);
     color: var(--accent1-color);
-    font-size: 1rem;
+    font-size: 13px;
     padding: 0;
     text-align: center;
 }
@@ -95,10 +98,11 @@ nav {
 nav>ul {
     list-style-type: none;
     display: flex;
+    justify-content: right;
 }
 
 nav a {
-    padding: 1em;
+    padding: .4em;
     min-width: 70px
 }
 
@@ -298,6 +302,7 @@ form {
     margin: 16px 0px 0px;
     font-family: var(--paragraph-font);
     height: 3em;
+    justify-items: center;
   }
   select {
       font-family: var(--paragraph-font);
@@ -309,6 +314,8 @@ form {
     display: grid;
     grid-template-columns: 4fr;
     grid-template-rows: 7fr;
+    justify-content: center;
+    text-align: center;
   }
 .breakfast {
     display: grid;
@@ -410,7 +417,6 @@ form {
     padding: 2em;
     display: grid;
     grid-template-columns: 5fr;
-    grid-row: 2fr 300px;
     justify-items: center;
 }
 .about {
@@ -437,15 +443,16 @@ form {
 }
 .facts {
     display: grid;
-    padding: 2em;
-    grid-template-columns: 1;
-    grid-template-rows: 3;
+    padding: 1em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
     grid-column: 3/5;
     grid-row: 2;
     background-color: rgba(78, 17, 51, 0.096);
     color: var(--primary-color);
     border: 2px solid rgb(78, 17, 51);
     margin: 2em;
+    justify-items: center;
 }
 .facts h2 {
     grid-row: 1;
@@ -454,7 +461,9 @@ form {
 .facts ul {
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
+    font-size: 16px;
     text-align: center;
+    padding: 1em;
 }
 .falls {
     grid-column: 1/6;
@@ -485,7 +494,7 @@ form {
 .spokane1 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 3fr;
+    grid-template-rows: 1fr 2fr;
     grid-column: 1/3;
     grid-row: 5;
     border: 2em;
