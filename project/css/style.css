@@ -406,3 +406,96 @@ form {
     grid-column: 5;
     grid-row: 4;
 }
+.light {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-row: 2fr 300px;
+    justify-items: center;
+}
+.about {
+    grid-column: 1/4;
+    grid-row: 2;
+    margin: 2em;
+}
+.stemp {
+    border: 2px solid rgba(179, 139, 139);
+    box-shadow: 5px 5px 5px #1d262e;
+    justify-items: center;
+    grid-column: 1/5 ;
+}
+.about h2 {
+    grid-column: 1/3;
+    grid-row: 2;
+    justify-items: center;
+}
+.about p {
+    grid-column: 1/3;
+    grid-row: 3;
+}
+.facts {
+    display: grid;
+    padding: 2em;
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+    grid-column: 3/5;
+    grid-row: 2;
+    background-color: rgba(78, 17, 51, 0.048);
+    color: var(--primary-color);
+    border: 2px solid rgb(78, 17, 51);
+    margin: 2em;
+}
+.facts h2 {
+    grid-row: 1;
+}
+.facts p {
+    padding: .5em;
+}
+.facts1 p {
+    grid-row: 2;
+}
+.facts2 p {
+    grid-row: 3;
+}
+.facts3 p {
+    grid-row: 4;
+}
+.spokane1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    grid-column: 1/3;
+    grid-row: 5;
+    padding: 6em;
+}
+.spokane1 h2 {
+    grid-row: 1;
+}
+.spokane1 p {
+    padding: .5em
+}
+.spokane2 p {
+    grid-row: 2;
+}
+.spokane3 p {
+    grid-row: 3;
+}
+.hours {
+    grid-row: 5;
+    grid-column: 4;
+}
+.hours h2 {
+    grid-row: 1;
+}
+.hours p {
+    padding: .2em;
+}
+.hr1 p {
+    grid-row: 2;
+}
+.hr2 p {
+    grid-row: 3;
+}
+.hr3 p {
+    grid-row: 4;
+}
