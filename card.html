@@ -23,6 +23,20 @@
             overflow: hidden;
             text-align: center;
         }
+        footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+        }
+        .viewButton {
+            grid-column: 1;
+        }
+        .editButton {
+            grid-column: 2;
+        }
+        span {
+            grid-column: 3;
+            justify-self: right;
+        }
     </style>
 </head>
 <article class="card">
